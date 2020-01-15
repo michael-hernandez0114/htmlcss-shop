@@ -50,22 +50,18 @@
     right: 0px;
     top: 0px;
     text-align: center;
+    padding-left: 5px;
 }
 
 .hearts {
-
     position: absolute;
-    z-index: 1;
     bottom: 0px;
     left: 200px;
     color: rgb(0, 0, 0);
-    visibility: visible;
-
 }
 
 .hearts:hover {
     color: rgb(255, 0, 0);
-
 }
 /*
 .console:hover {
