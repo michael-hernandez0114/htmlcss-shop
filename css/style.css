@@ -10,38 +10,30 @@
 }
 
 .container-top {
-
-    width: 1500px;
+    
     position: relative;
 }
 
 .ps4 {
     background-image: url('https://i.ytimg.com/vi/2ZfzbnueaPI/maxresdefault.jpg');
-    position: relative;
-    height: 300px;
-    width: 400px;
-    background-size: contain;
-    object-fit: contain;
-    background-repeat: no-repeat;
-    display: inline-block;
+
 }
 
 .xbox {
     background-image: url('https://i.ytimg.com/vi/1pqlHxiCAQk/maxresdefault.jpg');
-    position: relative;
-    height: 300px;
-    width: 400px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: inline-block;
+
 }
 
 .nintendo {
     background-image: url('https://i.ytimg.com/vi/rlSdNuE5pJo/maxresdefault.jpg');
+}
+
+.console {
     position: relative;
     height: 300px;
     width: 400px;
-    background-size: contain;
+    background-size: 400px 300px;
+    object-fit: contain;
     background-repeat: no-repeat;
     display: inline-block;
 }
@@ -53,4 +45,10 @@
     position: absolute;
     right: 0px;
     top: 0px;
+}
+
+.hearts {
+    height: 20px;
+    length: 20px;
+    content: attr(\02665);
 }
