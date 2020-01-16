@@ -58,6 +58,11 @@
     bottom: 0px;
     left: 200px;
     color: rgb(0, 0, 0);
+    display: none;
+}
+
+.console:hover .hearts {
+    display: block;
 }
 
 .hearts:hover {
